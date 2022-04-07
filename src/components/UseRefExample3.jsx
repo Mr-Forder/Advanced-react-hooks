@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Todo from "./Todo";
-
+//Fix a memory leak when a component fetching api data unmounts before the fetch request is complete with useref!
 const UseRefExample3 = () => {
   //toggle todo visibility - when false, todo component is UNMOUNTED, when true, it mounts.
   const [showTodo, setShowTodo] = useState(true);

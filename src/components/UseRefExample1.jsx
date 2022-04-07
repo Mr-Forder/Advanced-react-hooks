@@ -1,5 +1,5 @@
 import { useRef } from "react";
-
+//Create a reference to a DOM object and do anything to it with useref
 const UseRefExample1 = () => {
   //lets create a reference to our input. normally we'd have a piece of state for each input (name, setname, with value and onchange handler, setting tinto state)
   //here we'll get the value, without connecting it to any state

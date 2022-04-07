@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-
+//Get the previous state of any state variable via useRef!!!
 const UseRefExample2 = () => {
   //standard state variable, will update to whatever is typed into input thanks to the input's onChange property
   const [name, setName] = useState("");

@@ -1,11 +1,12 @@
-import UseRefExample3 from "./components/UseRefExample3";
+import UseFetchExample from "./components/UseFetchExample";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <h1>HI!</h1>
-      <UseRefExample3 />
+      <UseFetchExample />
     </div>
   );
 }
